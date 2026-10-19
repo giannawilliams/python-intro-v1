@@ -7,8 +7,8 @@ if number > 0:
     sign = "positive"
 elif number < 0:
     sign = "negative"
-else:
-    sign = "positive"
+elif number == 0:
+    sign = "zero"
 
 print(f"{number} is {parity}.")
 print(f"{number} is {sign}.")
